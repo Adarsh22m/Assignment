@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; /* Contrast with light background */
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    background: rgb(235, 222, 215);
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.image-container {
+    width: 100%; /* Allow full width */
+    max-width: 700px; /* Constrain to a maximum size */
+    margin: 20px auto; /* Center the container */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%; /* Scale image to fit container */
+    margin: 0; /* Remove excess margins */
+    display: block; /* Center align the image */
+}
+
+.p-info h1 {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 45px;
+}
+
+.p-info p {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.para1,
+.para2,
+.para3 {
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.info {
+    text-align: center;
+    padding-top: 20px;
+}
